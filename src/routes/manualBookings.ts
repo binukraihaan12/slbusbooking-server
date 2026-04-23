@@ -6,7 +6,7 @@ import type { ManualBankDetails, ManualHoldRequest } from "../types.js";
 
 const router = Router();
 
-const HOLD_MS = 10 * 60 * 1000;
+const HOLD_MS = 15 * 60 * 1000;
 const MAX_FILE_BYTES = 5 * 1024 * 1024;
 const ALLOWED_MIME = new Set(["image/jpeg", "image/png", "image/webp", "application/pdf"]);
 
